@@ -1,0 +1,24 @@
+// C:\Users\amara\Downloads\SoundSnap\build.gradle
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        // Plugin do Android Gradle
+        classpath "com.android.tools.build:gradle:8.0.2" // Utilize a versão mais recente compatível
+
+        // Plugin do Kotlin
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.21"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+// Remova qualquer bloco 'plugins' ou 'dependencies' específico do módulo daqui

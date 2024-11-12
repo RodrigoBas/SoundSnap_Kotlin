@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/albumName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Album Name"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/albumArtist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Artist"/>
+
+    <TextView
+        android:id="@+id/albumReleaseDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Release Date"/>
+
+    <TextView
+        android:id="@+id/albumTracks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tracks"/>
+
+    <Button
+        android:id="@+id/likeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Like"/>
+</LinearLayout>
